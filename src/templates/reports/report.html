@@ -1,0 +1,20 @@
+<!-- src/templates/reports/report.html -->
+
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "base.html" %}
+{% block title %}Upload Report{% endblock %}
+{% block body %}
+    <div class="content-section">
+        <div class="outer">
+            <div class="middle">
+                <div class="inner">
+                    <div class="center">
+                        <h1>Upload Report</h1>
+                        <br />
+                        {{ wtf.quick_form(form) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
