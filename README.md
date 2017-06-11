@@ -238,7 +238,7 @@ Evaluation of your submission will be based on the following criteria.
     # Python
         version: 3.6.1
 
-    execute run.py once environment is configured
+    execute run.py with '--env production|developemnt' once environment is configured
 
 
 To be honest I have never done web development in python as a job, so it was interesting for me to see how quickly
