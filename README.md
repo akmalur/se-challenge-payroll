@@ -222,3 +222,25 @@ Evaluation of your submission will be based on the following criteria.
    they explained?
 1. Did you separate any concerns in your application? Why or why not?
 1. Does your solution use appropriate data types for the problem as described?
+
+
+# Instructions
+    Requirements:
+
+    #POSTGRESQL
+
+        1. CREATE DATABASE paypal
+        2. CREATE ROLE paypal_admin
+        3. GRANT ALL PRIVILEGES ON DATABASE paypal TO paypal_admin
+        4. ALTER ROLE paypal_admin LOGIN
+        5. Configure on default port. If changes are required update instance/config.py/DATABASE_CONNECTION_URI
+
+    # Python
+        version: 3.6.1
+
+    execute run.py once environment is configured
+
+
+To be honest I have never done web development in python as a job, so it was interesting for me to see how quickly
+can I produce a result in a more or less clean way. I think I managed to structure everything cleanly and separate most
+of the concerns. In general I really enjoyed this challenge and hope my code won't disappoint. Hope to hear from you soon.
